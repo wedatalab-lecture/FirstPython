@@ -1,0 +1,19 @@
+#교재 p.85 
+
+6)딕셔너리
+ 
+ ⑤ 딕셔너리 메서드(표)
+ 
+
+```
+key로만 구성된 리스트를 반환한다. → key로만 구성된 dict_keys 객체를 반환한다. 
+value로 구성된 리스트를 반환한다. → value로 구성된 dict_values 객체를 반환한다. 
+(key, value) 쌍의 튜플이 들어있는 리스트를 반환한다. → (key, value) 쌍의 튜플이 들어있는 dict_items 객체를 반환한다.
+```
+
+
+
+python 3부터는 .keys(), .values(), .items() 메서드의 반환값은 리스트가 아니고, dict_keys, dict_values, dict_items 라는 객체로 반환됩니다.
+반복 가능한 iterable 객체이기 때문에 반복문 등에서 사용할 수 있습니다. 
+
+자세한 설명은 유튜브 강의 2.자료형 (4)-딕셔너리(https://youtu.be/4DVWR_1_PX0) 참고해주세요.
